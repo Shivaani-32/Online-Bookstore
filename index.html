@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Online Boot Store Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+<?php
+session_start();
+include("connection.php");
+	include("functions.php");
+	?>
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> bookTown </a>
+
+        
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+           
+            <a href="mycart.php" class="fas fa-shopping-cart"></a>
+			
+			<div id="login-btn" class="fas fa-phone"></div>
+			<a href="mycart.php" class="fas fa-user"></a>
+        </div>
+		
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="home 1.php">shop</a>
+            <a href="mycart.php">cart</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="mailto:shivaanis32@gmail.com" enctype="text/plain" method=post>
+        <h3>Mail us</h3>
+        <span>Enter your queries</span>
+        <input type="textarea"  rows='4' cols='150'  placeholder="enter your queries" name="Queries" id="">
+        
+        <input type="submit" value="Send" class="btn">
+        
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Shop Books</h3>
+            <p>The best place to find books for enginnering students!</p>
+            <a href="home 1.php" class="btn">shop now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/python1.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/p1.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/p2.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/ci.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/chem2.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/chem1jpg.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Fast delivery</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+            
+
+            
+
+
+
+
+    
+<section class="deal">
+
+    <div class="content">
+        
+        <h1>Hurry up!</h1>
+        
+        <a href="home 1.php" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="image/dd.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            
+            <a href="home 1.php"> <i class="fas fa-arrow-right"></i> Shop </a>
+        </div>
+
+        
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+           <a href="mailto:shivaanis32@gmail.com"> <i class="fas fa-envelope"></i> shivaanis32@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+        
+    </div>
+
+    <div> created by Shivaani S | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
