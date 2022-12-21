@@ -7,7 +7,7 @@ CSS
 JavaScript
 MongoDb (for backend)
 
-The json files are given in tmp.json import these into mongoDb compass and run the project.
+The json files are given in tmp.json these are used in mongoDb compass and to run the project.
 PHP is used for the backend with MongoDb.
 CRUD operations are used. Search using regex is also provided.
 
